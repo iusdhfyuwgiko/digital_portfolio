@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio showcasing projects, skills, and experience.">
+    <meta name="author" content="Your Name">
+    <title>Portfolio | Your Name</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home" class="logo-link">Uday<span>Dandagihalli</span></a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="assets/UDAY-DANDAGIHALLI-Resume.pdf" class="nav-link nav-resume" download>Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero" aria-label="Welcome section">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Uday Dandagihalli</span></h1>
+            <p class="hero-subtitle">AWS Cloud Computing Expert | AI/ML Enthusiast | MCA Pursuing</p>
+            <p class="hero-description">I design and deploy scalable, secure cloud solutions while leveraging AI/ML technologies to solve real-world problems and drive innovation.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary">View My Work</a>
+                <a href="assets/UDAY-DANDAGIHALLI-Resume.pdf" class="btn btn-secondary" download>
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-container">
+                <img src="./images/uday-image.jpeg" alt="Uday Dandagihalli" class="profile-photo">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about" aria-labelledby="about-title">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="about-title" class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm an aspiring AWS Cloud Computing expert and AI/ML enthusiast currently pursuing my Master of Computer Applications (MCA). With expertise in cloud infrastructure, machine learning, and robotics, I design scalable, secure solutions that drive digital transformation.</p>
+                    <p>Passionate about emerging technologies, I actively explore AWS services, AI/ML frameworks, and embedded systems. I'm committed to leveraging my technical knowledge to create innovative solutions that solve real-world challenges while continuously expanding my expertise in cloud computing.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>8.38</h3>
+                            <p>BSc CGPA</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Major Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Tech Skills</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./images/uday-image.jpeg" alt="Uday Dandagihalli - Developer" class="about-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills" aria-labelledby="skills-title">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="skills-title" class="section-title">Skills & Expertise</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python (Core)</li>
+                        <li>Java (Core)</li>
+                        <li>C (Core)</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+
+                <!-- AI/ML Tools -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>TensorFlow</li>
+                        <li>Scikit-learn & Keras</li>
+                        <li>Pandas & NumPy</li>
+                        <li>OpenCV & NLTK</li>
+                    </ul>
+                </div>
+
+                <!-- Cloud & Tools -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud & Tools</h3>
+                    <ul class="skill-list">
+                        <li>AWS Cloud Services</li>
+                        <li>Git & GitHub</li>
+                        <li>Jupyter Notebook</li>
+                        <li>Power BI & Postman</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li>Problem Solving</li>
+                        <li>Team Leadership</li>
+                        <li>Time Management</li>
+                        <li>Quick Learner</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects" aria-labelledby="projects-title">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="projects-title" class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-project">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Robotics project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Autonomous Robotics System</h3>
+                        <p>Designed and implemented an autonomous robot capable of obstacle detection, navigation, and task execution using sensor integration (Ultrasonic, IR) and real-time processing algorithms.</p>
+                        <div class="project-tags">
+                            <span class="tag">Robotics</span>
+                            <span class="tag">Arduino</span>
+                            <span class="tag">Sensor Integration</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-project">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Diabetes Prediction project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Diabetes Prediction & Diet Recommendation</h3>
+                        <p>ML-based system using Random Forest Classifier to predict diabetes likelihood with high accuracy. Integrated intelligent diet recommendation module for personalized meal plans.</p>
+                        <div class="project-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-project">
+                            <i class="fas fa-cloud-computing"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View AWS Cloud Computing project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AWS Cloud Computing Solutions</h3>
+                        <p>Designed and deployed scalable, secure, and cost-effective cloud solutions on AWS. Focus on infrastructure setup, service integration, and cloud architecture best practices.</p>
+                        <div class="project-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Cloud Architecture</span>
+                            <span class="tag">Certified</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-project">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Upcoming Projects">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Upcoming Innovations</h3>
+                        <p>Currently exploring cutting-edge technologies in AI/ML and cloud computing. Developing next-generation solutions that combine AWS infrastructure with advanced machine learning models.</p>
+                        <div class="project-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Innovation</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="contact-title" class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities. Feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <p class="label">Email</p>
+                                <a href="mailto:udayd.isme2426@gmail.com">udayd.isme2426@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <p class="label">Phone</p>
+                                <a href="tel:+918197810476">+91 8197810476</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <p class="label">Location</p>
+                                <p>Karnataka, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="assets/UDAY-DANDAGIHALLI-Resume.pdf" class="social-link" aria-label="Download Resume" download>
+                            <i class="fas fa-file-pdf"></i>
+                        </a>
+                        <a href="https://github.com/" class="social-link" aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" class="social-link" aria-label="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="social-link" aria-label="Twitter" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Uday Dandagihalli. All rights reserved.</p>
+                <p>Designed & Built with <span class="heart">♥</span> by Uday Dandagihalli</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
